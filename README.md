@@ -14,6 +14,7 @@ Implement a Naive-Bayes Classifier algorithm on the Iris Dataset to estimate a p
 The data for this project is obtained through Kaggle download using the following link : https://www.kaggle.com/uciml/iris. 
 With the help of python jupyter notebook, libraries such as Pandas, Numpy, Matplotlib, Seaborn are used for data preparation and visualization
 
+![image](https://user-images.githubusercontent.com/54149747/109911249-51c4d400-7c6f-11eb-977e-1253d02b527a.png)
 
 
 
