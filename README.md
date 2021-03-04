@@ -35,6 +35,20 @@ Boxplot of Species against SepalLengthCm
 ## Technical Aspect
 The dataset is splitted into training set(40 samples per category) to train our model and test set (10 samples per category) to validate the performance of our model.
 
-The GaussianNB (which is assigned to the classifier) is imported from the sklearn.naive_bayes library as we intended to use the Gaussian model(user choice) and then perform fitting on the training.
+The "GaussianNB" (which is assigned to the classifier) is imported from the "sklearn.naive_bayes" library as we intended to use the Gaussian model(user choice) and then perform fitting on the training.
+
+The "classifier.predict()" is used to predict our test data since it is assumed that our model has been trained.
+
+## Result/Performance
+![image](https://user-images.githubusercontent.com/54149747/109916221-d700b680-7c78-11eb-9901-eb4e23d84d20.png)
+
+
+The image above shows the accuracy of our result (0.966667), which is 96.7%. This means that our model has a high accuracy.
+The Matrix that follows is a confusion matrix(see https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62) which shows that of the test data(10 samples of each three flower category), our model predicted 29 correctly and only 1(FALSE NEGATIVE) was incorrectly predicted.
+
+## Conclusion
+In this work, the Naive-Bayes Classifier algorithm has been successfully implemented to predict Iris-flower categories with a very good accuracy using the iris-dataset with three different categories of flower.
+
+
 
 
