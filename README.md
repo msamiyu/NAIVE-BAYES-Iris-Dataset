@@ -6,6 +6,7 @@ Naive-Bayes is a supervised-learning algorithms whose main assumption is indepen
 Is there a simple machine learning classification algorithm that converges faster when training our model?. Can this be applied on a simple dataset to perform a classification and obtain its accuracy?.
 ## Goal 
 Implement a Naive-Bayes Classifier algorithm on the Iris Dataset to estimate a posterior probability of a feature(Species) given some other features(SepalLengthCm, PetalLengthCm, SepalWidthCm, and PetalWidthCm). 
-![image](https://user-images.githubusercontent.com/54149747/109902690-69e12700-7c60-11eb-8bb0-71adff409f4d.png) ![image](https://user-images.githubusercontent.com/54149747/109902737-7a919d00-7c60-11eb-8aa9-ce9bc03c4e38.png) ![image](https://user-images.githubusercontent.com/54149747/109902759-854c3200-7c60-11eb-9a25-563ac79704f4.png)
+![image](https://user-images.githubusercontent.com/54149747/109902872-a4e35a80-7c60-11eb-84f6-4dd258e79063.png)
+
 
 
