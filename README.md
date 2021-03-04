@@ -17,7 +17,24 @@ With the help of python jupyter notebook, libraries such as Pandas, Numpy, Matpl
 The First 5 rows of the Iris Data
 ![image](https://user-images.githubusercontent.com/54149747/109911249-51c4d400-7c6f-11eb-977e-1253d02b527a.png)
 
-Checking for Missing Values
+Checking for Missing Values: Using HeatMap(Which shows there was no missing values)
 ![image](https://user-images.githubusercontent.com/54149747/109911539-e3ccdc80-7c6f-11eb-9e44-dfb2770a4882.png)
+
+Although, as explained earlier, the Naive Bayes assumes the independent variables are uncorrelated. We try to see whether correlation exist as shown in the image below.
+![image](https://user-images.githubusercontent.com/54149747/109911980-c3515200-7c70-11eb-957f-1829285b733b.png)
+
+Countplot for the Dependent Variable(Species)
+![image](https://user-images.githubusercontent.com/54149747/109912152-25aa5280-7c71-11eb-8112-27b67825f105.png)
+
+Barplot of Species against SepalLengthCm
+![image](https://user-images.githubusercontent.com/54149747/109912364-8043ae80-7c71-11eb-938c-c7126001e998.png)
+
+Boxplot of Species against SepalLengthCm
+![image](https://user-images.githubusercontent.com/54149747/109912409-9a7d8c80-7c71-11eb-9b4d-aac0f9075f5a.png)
+
+## Technical Aspect
+The dataset is splitted into training set(40 samples per category) to train our model and test set (10 samples per category) to validate the performance of our model.
+
+The GaussianNB (which is assigned to the classifier) is imported from the sklearn.naive_bayes library as we intended to use the Gaussian model(user choice) and then perform fitting on the training.
 
 
