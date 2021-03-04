@@ -17,5 +17,7 @@ With the help of python jupyter notebook, libraries such as Pandas, Numpy, Matpl
 The First 5 rows of the Iris Data
 ![image](https://user-images.githubusercontent.com/54149747/109911249-51c4d400-7c6f-11eb-977e-1253d02b527a.png)
 
+Checking for Missing Values
+![image](https://user-images.githubusercontent.com/54149747/109911539-e3ccdc80-7c6f-11eb-9e44-dfb2770a4882.png)
 
 
